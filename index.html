@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Physics | Time, Displacement, Velocity</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <!-- Secret word is: fizika -->
+        <header id="title">
+            <h1>Physics</h1>
+            <h2>Velocity, Time and Displacement <br>(Click on the measurement title for More info)</h2> <br>
+        </header>
+        <form>
+            <div class="vel">
+                <h3 onclick="wikiVel()">Velocity [v]:</h3>
+                <p>s = <input type="text" id="sp1text" placeholder="Number..."> <select id="typeSpe" name="type"><option value="none">-- None --</option><optgroup label="displacement Type"><option value="meter">Meter</option><option value="km">Kilometer</option></optgroup></select></p> 
+                <p>t = <input type="text" id="ti1text" placeholder="Number..."> <select id="typeTim" name="type"><option value="none">-- None --</option><optgroup label="Time Type"><option value="sec">Seconds</option><option value="h">Hours</option></optgroup></select></p></p>
+                <p><div id="vel1ans"></div></p>
+                <button type="button" name="btn1" onclick="vel()" id="ans">Answer</button>
+            </div> <br> <br>
+            <div class="time">
+                <h3 onclick="wikiTime()">Time [t]:</h3>
+                <p>s = <input type="text" id="sp2text" placeholder="Number..."> <select name="type1" id="typeSpe1"><option value="none">-- None --</option><optgroup label="displacement Type"><option value="meter">Meter</option><option value="km">Kilometer</option></optgroup></select></p>
+                <p>v = <input type="text" id="vel1text" placeholder="Number..."> <select name="type1" id="typeVel"><option value="none">-- None --</option><optgroup label="Velocity Type"><option value="ms">M/s</option><option value="kmh">Km/h</option></optgroup></select></p>
+                <p><div id="ti1ans"></div></p>
+                <button type="button" name="btn1" onclick="time()" id="ans">Answer</button>
+            </div> <br> <br>
+            <div class="speed">
+                <h3 onclick="wikiDis()">Displacement [s]:</h3>
+                <p>t = <input type="text" id="ti2text" placeholder="Number..."> <select name="type2" id="typeTim1"><option value="none">-- None --</option><optgroup label="Time Types"><option value="sec">Seconds</option><option value="h">Hours</option></optgroup></select></p>
+                <p>v = <input type="text" id="vel2text" placeholder="Number..."> <select name="type2" id="typeVel1"><option value="none">-- None --</option><optgroup label="Velocity Types"><option value="ms">M/s</option><option value="kmh">Km/h</option></optgroup></select></p>
+                <p><div id="sp1ans"></div></p>
+                <button type="button" name="btn1" onclick="speed()" id="ans">Answer</button>
+            </div> <br> <br> <br>
+            <div class="kmh">
+                <h3 onclick="wikiKmh()">Velocity [km/h]:</h3>
+                <p><input type="text" id="ms1" placeholder="Number..."> m/s <div id="kmh1"></div></p>
+                <button type="button" name="btn1" onclick="kmh()" id="sub">Submit</button>
+            </div> <br> <br>
+            <div class="ms">
+                <h3 onclick="wikiMs()">Velocity [m/s]:</h3>
+                <p><input type="text" id="kmh2" placeholder="Number..."> Km/h <div id="ms2"></div></p>
+                <button type="button" name="btn2" onclick="ms()" id="sub1">Submit</button>
+            </div> <br> <br>
+        </form>
+        <div class="credit">
+            <a style="font-size: 25px;">You may like my other work too!</a> <br> <br>
+            <a href="https://monkeee-cs.github.io/squereRoot/" style="color: grey; " id="link" target="_blank">Squere root</a>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
