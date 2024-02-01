@@ -1,5 +1,5 @@
 # Project Information
-This project has been made for educational porpuses only and will be available [here on this website](https://monkeee-cs.github.io/fizika/)!
+This project has been made for educational porpuses only and will be available [here on this website](https://monkeee-cs.github.io/physics)!
 
 # Usage:
 If you really want you can install this files to your pc!
@@ -15,7 +15,7 @@ If you really want you can install this files to your pc!
 ```sudo apt install git```
 3. after that go where you want to download this files using  `cd <path>` in the terminal,
 4. Use this command to download/clone files:
-```git clone https://github.com/monkeee-cs/fizika```
+   ```git clone https://github.com/monkeee-cs/fizika```
 ## Mobile:
 Just go to the link in *Project Information*.
 # Note
