@@ -7,7 +7,7 @@ If you really want you can install this files to your pc!
 1. click widnows + r on your keybooard,
 2. enter `cmd` and click okay or just click enter,
 3. in to the cmd enter
-```git clone https://github.com/monkeee-cs/fizika```
+```git clone https://github.com/monkeee-cs/physics```
 **NOTE:** You will need to install [git](https://git-scm.com/) for this to work!
 ## MacOS:
 1. [Open terminal](https://support.apple.com/sl-si/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) on your Mac,
@@ -15,7 +15,7 @@ If you really want you can install this files to your pc!
 ```sudo apt install git```
 3. after that go where you want to download this files using  `cd <path>` in the terminal,
 4. Use this command to download/clone files:
-   ```git clone https://github.com/monkeee-cs/fizika```
+   ```git clone https://github.com/monkeee-cs/physics```
 ## Mobile:
 Just go to the link in *Project Information*.
 # Note
